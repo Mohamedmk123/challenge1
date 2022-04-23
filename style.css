@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: skyblue;
+}
+
+.imgs {
+    background-image: url("./usthb/usthb1.jpg");
+    width: 100%;
+    height: 100vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: changebg;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-play-state: running;
+}
+
+.imgs h1 {
+    padding: 40px;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    right: 23%;
+    color: #000000;
+    font-size: 50px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    opacity: 0.2;
+    transition: 1.5s;
+}
+
+.imgs h1:hover {
+    opacity: 1;
+}
+
+@keyframes changebg {
+    0% {
+        background-image: url("./usthb/usthb1.jpg");
+    }
+    20% {
+        background-image: url("./usthb/usthb2.jpg");
+    }
+    40% {
+        background-image: url("./usthb/3.png");
+    }
+    60% {
+        background-image: url("./usthb/4.png");
+    }
+    80% {
+        background-image: url("./usthb/3.png");
+    }
+    100% {
+        background-image: url("./usthb/6.jpg");
+    }
+}
