@@ -40,21 +40,21 @@ body {
 
 @keyframes changebg {
     0% {
-        background-image: url("./usthb/usthb1.jpg");
+        background-image: url("./usthb1.jpg");
     }
     20% {
-        background-image: url("./usthb/usthb2.jpg");
+        background-image: url("./usthb2.jpg");
     }
     40% {
-        background-image: url("./usthb/3.png");
+        background-image: url("./3.png");
     }
     60% {
-        background-image: url("./usthb/4.png");
+        background-image: url("./4.png");
     }
     80% {
-        background-image: url("./usthb/3.png");
+        background-image: url("./5.png");
     }
     100% {
-        background-image: url("./usthb/6.jpg");
+        background-image: url("./6.jpg");
     }
 }
