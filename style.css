@@ -15,7 +15,7 @@ body {
     animation-name: changebg;
     animation-delay: 0ms;
     animation-iteration-count: infinite;
-    animation-duration: 15s;
+    animation-duration: 7s;
     animation-play-state: running;
 }
 
@@ -56,6 +56,6 @@ body {
         background-image: url("./5.png");
     }
     100% {
-        background-image: url("./6.jpg");
+        background-image: url("./5.jpg");
     }
 }
